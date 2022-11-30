@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-size: cover;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+  background-color: #f5f5f5;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #555;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.flex {
+  display: flex;
+}
+
+/* desktop */
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color:  white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5rem 0;
+  box-shadow: 2px -2px 5px 0px black;
+  z-index: 2;
+}
+
+header img {
+  width: 5rem;
+}
+
+.nav-link {
+  gap: 4.5rem;
+}
+
+li {
+  list-style: none;
+}
+
+/* homepage */
+
+.home-content {
+  background:
+  linear-gradient(135deg,rgba(255, 255, 255, 0.644), rgba(255, 255, 255, 0.76)),
+    url(../src/images/bckgrnd.jpg); 
+  background-size: cover;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.home-content h1 {
+  font-size: 5rem;
+}
+
+.subtext {
+  font-size: 2.5rem;
+}
+
+.home-intro {
+  margin-top: 3.5rem;
+  font-size: 1.3rem;
+}
+
+/* about */
+
+.about-content {
+  background: 
+    linear-gradient(200deg,rgba(255, 255, 255, 0.849), rgba(255, 255, 255, 0.726)),
+    url(../src/images/aboutbgn.jpg);
+  background-size: cover;
+  padding: 5rem 15rem 0;
+  flex-direction: column;
+}
+
+.about-content h2 {
+  font-size: 2.5rem;
+}
+
+.text-content,
+.about-list {
+  font-size: 1rem;
+  margin: 2rem 0 0 5rem;
+  align-self: center;
+  max-width: 60rem;
+  line-height: 2rem;
+  color: rgb(70, 70, 70);
+}
+
+.about-details-container {
+  margin-bottom: 3rem;
+}
+
+.experience-list li {
+  list-style-type:lower-greek
+}
+
+.skills-ul {
+  justify-content: space-between;
+}
+
+.skills-ul h3 {
+  color: black;
+}
