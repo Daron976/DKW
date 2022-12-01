@@ -1,12 +1,10 @@
-/*eslint-disable*/
 import React from 'react';
-import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
-import Calculator from './components/calculator';
+import { BrowserRouter } from 'react-router-dom';
 import Home from './components/home';
 import Header from './components/header';
-import Quote from './components/quote';
-import Footer from './components/footer';
 import About from './components/about';
+import Projects from './components/projects';
+import Contact from './components/contact';
 
 class App extends React.PureComponent {
   render() {
@@ -14,8 +12,10 @@ class App extends React.PureComponent {
       <div className="App">
         <BrowserRouter>
           <Header />
-          <Home/>
-          <About/>
+          <Home />
+          <About />
+          <Projects />
+          <Contact />
         </BrowserRouter>
       </div>
     );
