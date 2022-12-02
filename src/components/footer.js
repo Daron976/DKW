@@ -47,7 +47,7 @@ const Footer = () => (
     </ul>
     <div className="copyright flex">
       <p>
-        Copyright ©2022 All rights reserved | This portfolio is made by Daron Kumi Wiafe
+        © Daron Wiafe. All rights reserved.
       </p>
     </div>
   </footer>

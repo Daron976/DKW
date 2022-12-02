@@ -28,7 +28,7 @@ const Contact = () => {
 
   return (
     <section id="contact" className="flex">
-      <div>
+      <div className="contact-submision">
         <h2>Get In Touch</h2>
         <form
           action="https://formspree.io/f/mwkzplvb"

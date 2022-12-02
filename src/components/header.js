@@ -5,6 +5,8 @@ import logo from '../images/logo.png';
 const Header = () => {
   const [menu, setMenu] = useState(true);
 
+  const [toggleMenu, setToggleMenu] = useState(false);
+
   const [rotate, setRotate] = useState(false);
 
   const rotateStyle = {
@@ -27,20 +29,31 @@ const Header = () => {
           to="#"
           className="home-link"
           style={rotate ? rotateStyle : { margin: '0.6rem 0.2rem' }}
+          onClick={() => {
+            setToggleMenu(false);
+            setTimeout(() => {
+              setMenu(true);
+            }, 500);
+          }}
         >
           <img src={logo} alt="logo" />
         </NavLink>
         <i // eslint-disable-line
-          className="fa-solid fa-bars fa-2x"
+          className="fa-solid fa-bars fa-2x menu-open"
           style={{
             display: menu ? 'flex' : 'none',
           }}
           onClick={() => {
+            setToggleMenu(true);
             setMenu(false);
           }}
         />
         <ul
-          className="mobile-menu"
+          className={
+            toggleMenu
+              ? 'mobile-menu menu-open'
+              : 'mobile-menu menu-close'
+          }
           style={{
             display: menu ? 'none' : 'flex',
           }}
@@ -48,7 +61,10 @@ const Header = () => {
           <i // eslint-disable-line
             className="fa-solid fa-arrow-right-from-bracket fa-2x"
             onClick={() => {
-              setMenu(true);
+              setToggleMenu(false);
+              setTimeout(() => {
+                setMenu(true);
+              }, 500);
             }}
           />
           <li className="link-item" id="home">
@@ -57,7 +73,10 @@ const Header = () => {
               to="#"
               className="home-link"
               onClick={() => {
-                setMenu(true);
+                setToggleMenu(false);
+                setTimeout(() => {
+                  setMenu(true);
+                }, 500);
               }}
             >
               Home
@@ -69,7 +88,10 @@ const Header = () => {
               to="#about"
               className="about-link"
               onClick={() => {
-                setMenu(true);
+                setToggleMenu(false);
+                setTimeout(() => {
+                  setMenu(true);
+                }, 500);
               }}
             >
               About
@@ -81,7 +103,10 @@ const Header = () => {
               to="#projects"
               className="projects-link"
               onClick={() => {
-                setMenu(true);
+                setToggleMenu(false);
+                setTimeout(() => {
+                  setMenu(true);
+                }, 500);
               }}
             >
               Projects
@@ -93,7 +118,10 @@ const Header = () => {
               to="#contact"
               className="contact-link"
               onClick={() => {
-                setMenu(true);
+                setToggleMenu(false);
+                setTimeout(() => {
+                  setMenu(true);
+                }, 500);
               }}
             >
               Contact
