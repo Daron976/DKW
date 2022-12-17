@@ -8,8 +8,7 @@ const About = () => (
         Hello there,
         <br />
         I am a Front-end developer and automobile enthusiast with a love for clean concise code,
-        an aspiring Mechanical Engineer, and a future Manchester United owner
-        - I know, that is quite something.
+        and an aspiring Mechanical Engineer.
         <br />
         Pair programming and remote work specialist. Fluent in multiple languages,
         frameworks, and technologies,
