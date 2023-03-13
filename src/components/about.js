@@ -22,10 +22,10 @@ const About = () => (
       <h2>Experience</h2>
       <ul className="about-list">
         <li className="about-list-item">
-          Over 700 hours of remote coding
+          Over 1000 hours of remote coding
         </li>
         <li className="about-list-item">
-          Over 700 hours of Pair Programming and collaboration
+          Over 1000 hours of Pair Programming and collaboration
         </li>
         <li className="about-list-item">
           Over 10 projects built in 3 months (Individually & in a team)

@@ -2,6 +2,27 @@ export const emailExp = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-
 
 const projectData = [
   {
+    title: 'QuickMaths',
+    description: 'This is a Full stack web application with a Ruby on Rails back-end and a React front-end. This application allows users to make reservations to schedule appointments with Math tutors, users can also keep track of all reservations. As a future feature, users will be allowed to delete reservations. This application was built as part of a team of great developers working on both front and back end.',
+    imgurl: 'https://raw.githubusercontent.com/Daron976/DKW/dev/src/images/quickmaths.png',
+    live: 'https://quickmaths145.netlify.app/',
+    source: 'https://github.com/laiifuu/QuickMaths-BackEnd',
+  },
+  {
+    title: 'Forenomic',
+    description: 'This is a full stack Ruby on Rails application with authorization and authentification. This application allows users to track their spending during a period of time by making an account of all transactions in various categories.',
+    imgurl: 'https://raw.githubusercontent.com/Daron976/DKW/dev/src/images/forenomic.png',
+    live: 'https://forenomic.onrender.com/',
+    source: 'https://github.com/Daron976/Forenomic',
+  },
+  {
+    title: 'Currex',
+    description: 'This is a currency exchange app that allows users to convert the currency of any country to the another currency while providing data about the country in question.',
+    imgurl: 'https://raw.githubusercontent.com/Daron976/DKW/dev/src/images/currex.png',
+    live: 'https://currex976.netlify.app/',
+    source: 'https://github.com/Daron976/currency-ex',
+  },
+  {
     title: 'BookShelf',
     description: 'In this project, I use react to create a single-page app for a Bookshelf that enables users to add or remove books with extra data stored in an external API',
     imgurl: 'https://raw.githubusercontent.com/Daron976/DKW/dev/src/images/bookshelf.png',
@@ -14,13 +35,6 @@ const projectData = [
     imgurl: 'https://raw.githubusercontent.com/Daron976/DKW/dev/src/images/mathmagician.png',
     live: 'https://caltake.netlify.app/',
     source: 'https://github.com/Daron976/Math-magician',
-  },
-  {
-    title: 'Currex',
-    description: 'This is a currency exchange app that allows users to convert the currency of any country to the another currency while providing data about the country in question.',
-    imgurl: 'https://raw.githubusercontent.com/Daron976/DKW/dev/src/images/currex.png',
-    live: 'https://currex976.netlify.app/',
-    source: 'https://github.com/Daron976/currency-ex',
   },
   {
     title: 'Climate Change Conference',
