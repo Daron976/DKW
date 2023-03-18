@@ -1,0 +1,7 @@
+{
+    "github.gitProtocol": "ssh",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "livePreview.customExternalBrowser": "Chrome",
+    "liveServer.settings.CustomBrowser": "chrome"
+}
