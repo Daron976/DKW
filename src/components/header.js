@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 import logo from '../images/logo.png';
 
@@ -20,6 +20,14 @@ const Header = () => {
       setRotate(false);
     }
   };
+
+  useEffect(() => {
+    if (!menu) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'scroll';
+    }
+  });
 
   return (
     <header className="flex">
