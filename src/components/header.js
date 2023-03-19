@@ -23,21 +23,27 @@ const Header = () => {
 
   return (
     <header className="flex">
-      <nav className="mobile-header">
-        <NavLink
-          smooth
-          to="#"
-          className="home-link"
-          style={rotate ? rotateStyle : { margin: '0.6rem 0.2rem' }}
-          onClick={() => {
-            setToggleMenu(false);
-            setTimeout(() => {
-              setMenu(true);
-            }, 500);
-          }}
-        >
-          <img src={logo} alt="logo" />
-        </NavLink>
+      <NavLink
+        smooth
+        to="#"
+        className="home-link mobile-logo"
+        style={rotate ? rotateStyle : { margin: '0.6rem 0.2rem' }}
+        onClick={() => {
+          setToggleMenu(false);
+          setTimeout(() => {
+            setMenu(true);
+          }, 500);
+        }}
+      >
+        <img src={logo} alt="logo" />
+      </NavLink>
+      <nav
+        className={
+          toggleMenu
+            ? 'mobile-header overlay'
+            : 'mobile-header'
+        }
+      >
         <i // eslint-disable-line
           className="fa-solid fa-bars fa-2x menu-open"
           style={{
@@ -67,66 +73,68 @@ const Header = () => {
               }, 500);
             }}
           />
-          <li className="link-item" id="home">
-            <NavLink
-              smooth
-              to="#"
-              className="home-link"
-              onClick={() => {
-                setToggleMenu(false);
-                setTimeout(() => {
-                  setMenu(true);
-                }, 500);
-              }}
-            >
-              Home
-            </NavLink>
-          </li>
-          <li className="link-item">
-            <NavLink
-              smooth
-              to="#about"
-              className="about-link"
-              onClick={() => {
-                setToggleMenu(false);
-                setTimeout(() => {
-                  setMenu(true);
-                }, 500);
-              }}
-            >
-              About
-            </NavLink>
-          </li>
-          <li className="link-item">
-            <NavLink
-              smooth
-              to="#projects"
-              className="projects-link"
-              onClick={() => {
-                setToggleMenu(false);
-                setTimeout(() => {
-                  setMenu(true);
-                }, 500);
-              }}
-            >
-              Projects
-            </NavLink>
-          </li>
-          <li className="link-item">
-            <NavLink
-              smooth
-              to="#contact"
-              className="contact-link"
-              onClick={() => {
-                setToggleMenu(false);
-                setTimeout(() => {
-                  setMenu(true);
-                }, 500);
-              }}
-            >
-              Contact
-            </NavLink>
-          </li>
+          <div className="link-item-container flex">
+            <li className="link-item" id="home">
+              <NavLink
+                smooth
+                to="#"
+                className="home-link"
+                onClick={() => {
+                  setToggleMenu(false);
+                  setTimeout(() => {
+                    setMenu(true);
+                  }, 500);
+                }}
+              >
+                Home
+              </NavLink>
+            </li>
+            <li className="link-item">
+              <NavLink
+                smooth
+                to="#about"
+                className="about-link"
+                onClick={() => {
+                  setToggleMenu(false);
+                  setTimeout(() => {
+                    setMenu(true);
+                  }, 500);
+                }}
+              >
+                About
+              </NavLink>
+            </li>
+            <li className="link-item">
+              <NavLink
+                smooth
+                to="#projects"
+                className="projects-link"
+                onClick={() => {
+                  setToggleMenu(false);
+                  setTimeout(() => {
+                    setMenu(true);
+                  }, 500);
+                }}
+              >
+                Projects
+              </NavLink>
+            </li>
+            <li className="link-item">
+              <NavLink
+                smooth
+                to="#contact"
+                className="contact-link"
+                onClick={() => {
+                  setToggleMenu(false);
+                  setTimeout(() => {
+                    setMenu(true);
+                  }, 500);
+                }}
+              >
+                Contact
+              </NavLink>
+            </li>
+          </div>
         </ul>
       </nav>
       <nav className="desktop-header">

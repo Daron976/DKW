@@ -6,7 +6,6 @@ const Home = () => (
       <h1>Daron Wiafe</h1>
       <p className="subtext">Software developer</p>
     </div>
-    <div className="text-container" />
   </section>
 );
 
