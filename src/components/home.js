@@ -9,7 +9,7 @@ const Home = () => {
         setAnimation(false);
       }
     }, 2000);
-  }, []);
+  }, [animation]);
 
   return (
     <section className="home-content flex" data-testid="home">
