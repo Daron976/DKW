@@ -7,12 +7,16 @@ const About = () => (
       <p className="text-content">
         Hello there,
         <br />
-        I am a Front-end developer and automobile enthusiast with a love for clean concise code,
-        and an aspiring Mechanical Engineer.
+        I am a Full-Stack developer and an automobile enthusiast who loves to write clean
+        and concise code.
+        I am also an aspiring Mechanical Engineer.
+        In my free time, I enjoy learning about cars and their manufacturing process.
+        It amazes me to see how mankind builds things of great significance.
         <br />
-        Pair programming and remote work specialist. Fluent in multiple languages,
-        frameworks, and technologies,
-        and capable of getting the job done efficiently with time to spare.
+        I completed the full-stack development program at Microverse in a record
+        7 months with no missed deadlines or repeats.
+        I am proficient in multiple languages, frameworks, and technologies,
+        and I am capable of efficiently completing tasks with time to spare.
         <br />
         I am your developer, let&apos;s get on a
         {' '}
@@ -33,13 +37,69 @@ const About = () => (
       <h2>Experience</h2>
       <ul className="about-list">
         <li className="about-list-item">
-          Over 1000 hours of remote coding
+          <h3>Full Stack Engineer</h3>
+          <br />
+          Microverse - Highlighted Personal ProjectsMicroverse - Highlighted Personal Projects
+          <br />
+          Aug 2022 - Present · 8 mosAug 2022 - Present · 8 mos
+          <br />
+          City of Johannesburg, Gauteng, South Africa · Remote
         </li>
         <li className="about-list-item">
-          Over 1000 hours of Pair Programming and collaboration
+          <br />
+          EXPERIENCES & ACCOMPLISHMENTS
+          <br />
+          - Head a team of 3-4 developers in morning sessions.
+          <br />
+          - Built, tested, and deployed maintainable web applications.
+          <br />
+          - Managed project plans using the Kanban method.
+          <br />
+          - Worked on projects as a team member, as well as as an individual.
+          <br />
+          - Troubleshot web application issues, including typographical, and formatting problems.
+          <br />
+          - Documented APIs with unit tests.
+          <br />
+          - Built responsive web applications.
+          <br />
+          - Improved team members and colleagues with constructive feedback.
+          <br />
+          - Never missed project deadlines.
+          <br />
+          - Over a 1000 hours in pair-programming and remote development
         </li>
         <li className="about-list-item">
-          Over 10 projects built in 3 months (Individually & in a team)
+          <br />
+          Highlighted Personal Projects:
+          <br />
+          - Currex: https://github.com/Daron976/currency-ex
+          <br />
+          - Forenomic: https://github.com/Daron976/Forenomic
+          <br />
+          - QuickMaths: https://github.com/laiifuu/QuickMaths-BackEnd
+        </li>
+      </ul>
+      <ul className="about-list">
+        <li className="about-list-item">
+          <h3>Student Mentor</h3>
+          <br />
+          Microverse · Part-time
+          <br />
+          Sep 2022 - Oct 2022 · 2 mos
+          <br />
+          San Francisco, California, United States · Remote
+        </li>
+        <li className="about-list-item">
+          <br />
+          EXPERIENCES & ACCOMPLISHMENTS
+          <br />
+          - Mentored junior web developers, providing technical support through code reviews.
+          <br />
+          - Proposed improvements to code organization to
+          improve code quality and overall performance.
+          <br />
+          - Provided advice and tips on maintaining motivation to preserve longevity in the program.
         </li>
       </ul>
     </div>
@@ -71,6 +131,8 @@ const About = () => (
           <li className="about-list-item">Communication</li>
           <li className="about-list-item">Effective Collaboration</li>
           <li className="about-list-item">Adaptability</li>
+          <li className="about-list-item">Volunteering</li>
+          <li className="about-list-item">Leadership</li>
         </li>
       </ul>
     </div>
