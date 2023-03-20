@@ -107,6 +107,11 @@ li {
   font-size: 1.3rem;
 }
 
+.header-msg {
+  margin-top: 5rem;
+  font-size: 1.2rem;
+}
+
 .mobile-logo {
   display: none;
 }
@@ -152,6 +157,11 @@ li {
 
 .skills-ul h3 {
   color: black;
+}
+
+.contact-cta {
+  text-decoration: underline;
+  scroll-behavior: smooth;
 }
 
 /* projects */

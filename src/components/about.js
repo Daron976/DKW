@@ -14,7 +14,18 @@ const About = () => (
         frameworks, and technologies,
         and capable of getting the job done efficiently with time to spare.
         <br />
-        I am your developer, let&apos;s get on a zoom call.
+        I am your developer, let&apos;s get on a
+        {' '}
+        <a
+          className="contact-cta"
+          href="#contact"
+        >
+          <strong>
+            <em>
+              zoom call.
+            </em>
+          </strong>
+        </a>
         <br />
       </p>
     </div>
@@ -36,7 +47,9 @@ const About = () => (
       <h2>Skills</h2>
       <ul className="about-list skills-ul flex">
         <li className="about-list-item">
-          <h3 className="skill-header">Front-End</h3>
+          <h3 className="skill-header">Tech-Stack</h3>
+          <li className="about-list-item">Ruby</li>
+          <li className="about-list-item">Rails</li>
           <li className="about-list-item">React & Redux</li>
           <li className="about-list-item">JavaScript</li>
           <li className="about-list-item">CSS</li>

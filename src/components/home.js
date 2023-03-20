@@ -32,6 +32,9 @@ const Home = () => {
         >
           Software developer
         </p>
+        <p className="header-msg">
+          Developing more than just your technical products
+        </p>
       </div>
     </section>
   );
