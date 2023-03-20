@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 import logo from '../images/logo.png';
 
@@ -20,14 +20,6 @@ const Header = () => {
       setRotate(false);
     }
   };
-
-  useEffect(() => {
-    if (!menu) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'scroll';
-    }
-  });
 
   return (
     <header className="flex">
@@ -60,6 +52,7 @@ const Header = () => {
           onClick={() => {
             setToggleMenu(true);
             setMenu(false);
+            localStorage.setItem('scroll', 'hidden');
           }}
         />
         <ul
@@ -76,6 +69,7 @@ const Header = () => {
             className="fa-solid fa-arrow-right-from-bracket fa-2x"
             onClick={() => {
               setToggleMenu(false);
+              localStorage.setItem('scroll', 'scroll');
               setTimeout(() => {
                 setMenu(true);
               }, 500);
@@ -145,7 +139,9 @@ const Header = () => {
           </div>
         </ul>
       </nav>
-      <nav className="desktop-header">
+      <nav
+        className="desktop-header"
+      >
         <NavLink
           smooth
           to="#"

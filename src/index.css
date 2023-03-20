@@ -169,13 +169,22 @@ li {
   background-position: center;
   display: flex;
   height: 100vh;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   padding: 0 10rem;
 }
 
 .header-addition {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
   background: none;
+  padding: 0;
+  justify-content: space-around;
+}
+
+.project-article:first-child {
+  flex-direction: column;
 }
 
 .article-details h2 {
@@ -188,11 +197,7 @@ li {
   display: flex;
   justify-content: flex-start;
   width: 100%;
-  margin-top: 10rem;
-}
-
-.project-article:first-child {
-  flex-direction: column;
+  margin: 3rem 0;
 }
 
 .project-article:nth-child(even) {
@@ -207,6 +212,8 @@ li {
 
 .project-article img {
   max-width: 50rem;
+  transition: all;
+  transition-duration: 0.5s;
 }
 
 .project-article p {
@@ -380,6 +387,11 @@ footer a:hover {
   .header-addition {
     flex-direction: column;
     padding: 0;
+    height: 100%;
+  }
+
+  .project-article {
+    padding-bottom: 4rem;
   }
 
   .project-article:nth-child(even) {
@@ -509,7 +521,7 @@ footer a:hover {
   }
 
   .project-article {
-    padding: 3rem 1.5rem 5rem;
+    padding: 3rem 1.5rem;
   }
 
   .project-article,
@@ -526,6 +538,7 @@ footer a:hover {
 
   .header-addition {
     padding: 1.5rem;
+    padding-bottom: 3rem;
     margin: 0;
     margin-top: 3rem;
   }
@@ -540,7 +553,7 @@ footer a:hover {
   }
 
   .project-article img {
-    max-width: 20rem;
+    max-width: 35rem;
   }
 
   .article-details h2,
@@ -595,6 +608,12 @@ footer a:hover {
   }
 }
 
+@media screen and (max-width: 530px) {
+  .project-article img {
+    max-width: 25rem;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .projects-header {
     padding-right: 1.5rem;
@@ -612,7 +631,7 @@ footer a:hover {
 
 @media screen and (max-width: 375px) {
   .project-article img {
-    max-width: 15rem;
+    max-width: 20rem;
   }
 }
 
