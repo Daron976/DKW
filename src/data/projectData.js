@@ -38,7 +38,7 @@ const projectData = [
   },
   {
     title: 'Climate Change Conference',
-    description: 'This is a website for a climate change conference which contains details about the purpose, audience and speakers that will be present, as well as how the programme will unfold during the of the conference.',
+    description: 'This is a website for a climate change conference which contains details about the purpose, audience and speakers that will be present, as well as how the programme will unfold during the time of the conference.',
     imgurl: 'https://raw.githubusercontent.com/Daron976/DKW/dev/src/images/climate.png',
     live: 'https://daron976.github.io/Climate-Change-Conference/',
     source: 'https://github.com/Daron976/Climate-Change-Conference',
