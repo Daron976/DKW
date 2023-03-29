@@ -119,7 +119,7 @@ const About = () => (
           <h3 className="skill-header">Tools & Methods</h3>
           <li className="about-list-item">Git, Git-flow</li>
           <li className="about-list-item">GitHub & GitHub-flow</li>
-          <li className="about-list-item">Mobile/Resposive Development</li>
+          <li className="about-list-item">Mobile/Responsive Development</li>
           <li className="about-list-item">Jest Testing</li>
           <li className="about-list-item">Dev Tools</li>
         </li>
