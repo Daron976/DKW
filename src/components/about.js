@@ -65,16 +65,6 @@ const About = () => (
           <br />
           - Over a 1000 hours in pair-programming and remote development
         </li>
-        <li className="about-list-item">
-          <br />
-          Highlighted Personal Projects:
-          <br />
-          - Currex: https://github.com/Daron976/currency-ex
-          <br />
-          - Forenomic: https://github.com/Daron976/Forenomic
-          <br />
-          - QuickMaths: https://github.com/laiifuu/QuickMaths-BackEnd
-        </li>
       </ul>
       <ul className="about-list">
         <li className="about-list-item">
