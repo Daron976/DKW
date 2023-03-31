@@ -123,7 +123,7 @@ li {
     linear-gradient(200deg, rgba(255, 255, 255, 0.849), rgba(255, 255, 255, 0.726)),
     url(../src/images/aboutbgn.jpg);
   background-size: cover;
-  padding: 6rem 15rem 5rem;
+  padding: 5rem;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -167,21 +167,20 @@ li {
 /* projects */
 
 #projects {
+  background:
+    linear-gradient(200deg, rgba(255, 255, 255, 0.644), rgba(255, 255, 255, 0.582)),
+    url(../src/images/project.jpg);
   flex-direction: column;
 }
 
 .project-article,
 .header-addition {
-  background:
-    linear-gradient(200deg, rgba(255, 255, 255, 0.288), rgba(255, 255, 255, 0.205)),
-    url(../src/images/project.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
-  /* max-height: 100vh; */
   justify-content: space-around;
   align-items: center;
-  padding: 0 5rem;
+  padding: 5rem;
   gap: 1rem;
 }
 
@@ -194,10 +193,6 @@ li {
   justify-content: space-around;
 }
 
-/* .project-article:first-child {
-  flex-direction: column;
-} */
-
 .article-details h2 {
   font-size: 2.5rem;
 }
@@ -207,16 +202,10 @@ li {
   font-size: 3.5rem;
   display: flex;
   justify-content: flex-start;
-  width: 100%;
-  margin: 3rem 0;
+  margin: 2rem 5rem;
 }
 
 .project-article:nth-child(even) {
-  background:
-    linear-gradient(200deg, rgba(255, 255, 255, 0.644), rgba(255, 255, 255, 0.582)),
-    url(../src/images/projectnth.jpg);
-
-  /* background-position: center; */
   background-size: cover;
   flex-direction: row-reverse;
 }
@@ -252,6 +241,13 @@ li {
   color: white;
 }
 
+.contact-submission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 35rem;
+}
+
 #contact {
   background:
     linear-gradient(200deg, rgba(255, 255, 255, 0.767), rgba(255, 255, 255, 0.781)),
@@ -261,7 +257,7 @@ li {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  height: 100vh;
+  height: 55rem;
   gap: 1rem;
 }
 
@@ -269,10 +265,6 @@ li {
   justify-content: center;
   margin-top: 0;
   margin-bottom: 1rem;
-}
-
-form {
-  margin-bottom: 8rem;
 }
 
 .contact-form {
@@ -409,11 +401,6 @@ footer a:hover {
     flex-direction: column;
   }
 
-/* 
-  .project-article img {
-    max-width: 40rem;
-  } */
-
   .about-content {
     padding: 4rem 3rem 3rem;
   }
@@ -463,9 +450,7 @@ footer a:hover {
   }
 
   .mobile-menu {
-    background:
-      linear-gradient(200deg, rgba(0, 0, 0, 0.39), rgba(255, 255, 255, 0.493)),
-      url(../src/images/mobilemenu.jpg);
+    background: rgba(0, 0, 0, 0.251);
     background-position: center;
     background-size: cover;
     flex-direction: column;

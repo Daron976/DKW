@@ -13,8 +13,6 @@ const About = () => (
         In my free time, I enjoy learning about cars and their manufacturing process.
         It amazes me to see how mankind builds things of great significance.
         <br />
-        I completed the full-stack development program at Microverse in a record
-        7 months with no missed deadlines or repeats.
         I am proficient in multiple languages, frameworks, and technologies,
         and I am capable of efficiently completing tasks with time to spare.
         <br />
@@ -48,8 +46,6 @@ const About = () => (
         <li className="about-list-item">
           <br />
           EXPERIENCES & ACCOMPLISHMENTS
-          <br />
-          - Head a team of 3-4 developers in morning sessions.
           <br />
           - Built, tested, and deployed maintainable web applications.
           <br />

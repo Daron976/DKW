@@ -19,6 +19,12 @@ const Header = () => {
     if (window.scrollY === 0) {
       setRotate(false);
     }
+    if (window.scrollBy) {
+      setToggleMenu(false);
+      setTimeout(() => {
+        setMenu(true);
+      }, 500);
+    }
   };
 
   return (
@@ -69,7 +75,6 @@ const Header = () => {
             className="fa-solid fa-arrow-right-from-bracket fa-2x"
             onClick={() => {
               setToggleMenu(false);
-              localStorage.setItem('scroll', 'scroll');
               setTimeout(() => {
                 setMenu(true);
               }, 500);
