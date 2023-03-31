@@ -4,6 +4,7 @@ import projectData from '../data/projectData';
 
 const Projects = () => (
   <section id="projects" className="projects flex">
+    <h2 className="projects-header">Some of my work</h2>
     {/* <article className="project-article">
       <h2 className="projects-header">Some of my work</h2>
       <div className="header-addition mobile-border flex">
