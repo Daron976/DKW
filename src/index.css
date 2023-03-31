@@ -178,10 +178,11 @@ li {
   background-size: cover;
   background-position: center;
   display: flex;
-  height: 100vh;
+  /* max-height: 100vh; */
   justify-content: space-around;
   align-items: center;
-  padding: 0 10rem;
+  padding: 0 5rem;
+  gap: 1rem;
 }
 
 .header-addition {
@@ -193,9 +194,9 @@ li {
   justify-content: space-around;
 }
 
-.project-article:first-child {
+/* .project-article:first-child {
   flex-direction: column;
-}
+} */
 
 .article-details h2 {
   font-size: 2.5rem;
@@ -221,7 +222,7 @@ li {
 }
 
 .project-article img {
-  max-width: 50rem;
+  max-width: 40rem;
   transition: all;
   transition-duration: 0.5s;
 }
@@ -408,9 +409,10 @@ footer a:hover {
     flex-direction: column;
   }
 
+/* 
   .project-article img {
     max-width: 40rem;
-  }
+  } */
 
   .about-content {
     padding: 4rem 3rem 3rem;

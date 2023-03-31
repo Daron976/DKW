@@ -3,7 +3,7 @@ export const emailExp = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-
 const projectData = [
   {
     title: 'QuickMaths',
-    description: 'This is a Full stack web application with a Ruby on Rails back-end and a React front-end. This application allows users to make reservations to schedule appointments with Math tutors, users can also keep track of all reservations. As a future feature, users will be allowed to delete reservations. This application was built as part of a team of great developers working on both front and back end.',
+    description: 'This is a Full stack web application with a Ruby on Rails back-end and a React front-end. This application allows users to make reservations to schedule appointments with Math tutors.',
     imgurl: 'https://raw.githubusercontent.com/Daron976/DKW/dev/src/images/quickmaths.png',
     live: 'https://quickmaths145.netlify.app/',
     source: 'https://github.com/laiifuu/QuickMaths-BackEnd',
