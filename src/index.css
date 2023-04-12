@@ -202,7 +202,7 @@ li {
   font-size: 3.5rem;
   display: flex;
   justify-content: flex-start;
-  margin: 2rem 5rem;
+  margin: 5rem;
 }
 
 .project-article:nth-child(even) {
