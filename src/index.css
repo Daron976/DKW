@@ -202,7 +202,10 @@ li {
   font-size: 3.5rem;
   display: flex;
   justify-content: flex-start;
-  margin: 5rem;
+}
+
+.projects-header {
+  margin: 5rem 0 0 5rem;
 }
 
 .project-article:nth-child(even) {
@@ -245,6 +248,7 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   height: 35rem;
 }
 
