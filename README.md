@@ -52,8 +52,8 @@ This is a personal portfolio website built with react
 
 ### Key Features <a name="key-features"></a>
 
-- **Fetches data from Api**
-- **Render API data on an SPA**
+- **Displays built projects**
+- **Provides contack information for prospective clients**
 - **Responsive Application**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
