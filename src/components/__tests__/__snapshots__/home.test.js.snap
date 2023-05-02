@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Homepage Homepage should render as expected 1`] = `
+<section
+  className="home-content flex"
+  data-testid="home"
+>
+  <div
+    className="home-header"
+  >
+    <h1
+      className="name-animation"
+    >
+      Daron Wiafe
+    </h1>
+    <p
+      className="subtext-animation subtext"
+    >
+      Software developer
+    </p>
+    <p
+      className="header-msg"
+    >
+      Developing more than just your technical products
+    </p>
+  </div>
+</section>
+`;
